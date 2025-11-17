@@ -1,0 +1,13 @@
+Uuid: 8370c8ea741e4dbabe892a561e10544a
+ExtensionType: 1
+Name: Postman Burp Importer
+RepoName: postman-burp-importer
+ScreenVersion: 1.0.4
+SerialVersion: 1
+MinPlatformVersion: 15
+ProOnly: False
+Author: nerdygenii
+ShortDescription: A Burp Suite extension for importing Postman collections and environments, converting them into Burp Repeater tabs or Sitemap entries for comprehensive security testing.
+EntryPoint: postman-burp-importer-1.0.4-jar-with-dependencies.jar
+BuildCommand: mvn clean install && mvn test
+SupportedProducts: Pro, Community

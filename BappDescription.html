@@ -1,0 +1,73 @@
+Postman Collection Importer for Burp Suite is a powerful extension that seamlessly imports Postman collections and environments, converting them into Burp Repeater tabs and/or Sitemap entries. This allows for comprehensive security testing.
+
+<h2>Features</h2>
+
+<strong>Core Functionality:</strong>
+<ul>
+    <li>Supports Postman Collection v2.0 &amp; v2.1.</li>
+    <li>Allows environment file support with variable resolution.</li>
+    <li>Enables smart variable detection with guided resolution.</li>
+    <li>Supports multiple destinations: Repeater, Sitemap, or both.</li>
+    <li>Offers request preview and selective import.</li>
+    <li>Handles all authentication types: Bearer, Basic, API Key, OAuth2.</li>
+    <li>Supports all request body types: JSON, form-data, x-www-form-urlencoded.</li>
+    <li>Tracks progress and provides detailed logging.</li>
+</ul>
+
+<strong>Advanced Features:</strong>
+<ul>
+    <li>Supports GraphQL: features automatic detection and operation extraction.</li>
+    <li>Smart Retry System: facilitates retrying failed requests with a single click.</li>
+    <li>Intelligent Variables: offers smart variable suggestions.</li>
+    <li>Multi-selection: allows choosing specific requests to import.</li>
+    <li>Rate Limiting: enables configurable delays for live requests (0-5000ms, default: 200ms).</li>
+    <li>Visual Indicators: provides color-coded status and variable resolution.</li>
+</ul>
+
+<h2>Usage</h2>
+
+<strong>Quick Start:</strong>
+
+To perform a basic import, follow these steps:
+
+<ol>
+    <li><strong>Load Collection:</strong> Click \Browse\ next to Collection and select your .json file.</li>
+    <li><strong>Load Environment (Optional):</strong> Select your Postman environment file.</li>
+    <li><strong>Choose Destination:</strong>
+        <ul>
+            <li>Repeater: For manual testing (no HTTP requests made)</li>
+            <li>Sitemap: For live requests and attack surface discovery</li>
+            <li>Both: To get the benefits of both.</li>
+        </ul>
+    </li>
+    <li><strong>Configure Rate Limiting (Optional):</strong> Adjust delay between requests (default: 200ms).</li>
+    <li><strong>Import:</strong> Click \Import Collection\.</li>
+</ol>
+
+For variable resolution, follow steps 1-3 above. If unresolved variables are detected, choose a resolution method:
+
+<ul>
+    <li><strong>Upload Environment:</strong> Select additional environment file.</li>
+    <li><strong>Manual Entry:</strong> Enter values with smart suggestions.</li>
+    <li><strong>Ignore Variables:</strong> Proceed with unresolved variables.</li>
+    <li><strong>Skip Problematic:</strong> Import only requests without issues.</li>
+</ul>
+
+<strong>Use Cases:</strong>
+
+Security Testing Workflows
+
+<ul>
+    <li>API Penetration Testing: Import entire API collections for comprehensive testing.</li>
+    <li>Vulnerability Assessment: Convert Postman tests to Burp Scanner targets.</li>
+    <li>Manual Testing: Use Repeater tabs for detailed request manipulation.</li>
+    <li>Automation Bridge: Connect development tools with security testing.</li>
+</ul>
+
+Team Collaboration
+
+<ul>
+    <li>DevSecOps Integration: Import from CI/CD Postman collections.</li>
+    <li>QA to Security: Reuse existing API test suites for security testing.</li>
+    <li>Documentation: Convert API documentation to live security tests.</li>
+</ul>
