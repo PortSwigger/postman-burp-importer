@@ -6,8 +6,8 @@ ScreenVersion: 1.0.4
 SerialVersion: 1
 MinPlatformVersion: 15
 ProOnly: False
-Author: nerdygenii
-ShortDescription: A Burp Suite extension for importing Postman collections and environments, converting them into Burp Repeater tabs or Sitemap entries for comprehensive security testing.
+Author: Abdul Rahman
+ShortDescription: Import Postman collections and environments, converting them into Burp Repeater tabs or Sitemap entries for further testing.
 EntryPoint: postman-burp-importer-1.0.4-jar-with-dependencies.jar
-BuildCommand: mvn clean install && mvn test
+BuildCommand: mvn clean install
 SupportedProducts: Pro, Community
